@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<style type="text/css">
+		html{
+			font-family: 'Roboto', sans-serif;
+			background:black;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+
+		.name{
+			font-family: 'Russo One', sans-serif;
+			position: absolute;
+			margin-top: 7px;
+		}
+		.logo-div{
+			border-right: 2px white solid;
+			border-bottom: 2px white solid;
+			width: 140px;
+			height: 40px;
+		}
+
+.dropdown-content {
+	text-align: center;
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content {
+	width: 100px;
+  display: block;
+  touch-action: auto;
+}
+.dropdown-content a {
+  display: block;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  background: rgb(0, 0, 0, .8);
+}
+.dropdown-content a:hover {
+
+  color: #FFFFFF;
+  background: url(photo/button.png);
+}
+
+.btn1{
+	border-right: 1px gray solid;
+	border-left: none;
+	border-bottom: none;
+	border-top: none;
+background: none;
+color: white;
+width: 100px;
+height: 40px;	
+}
+.btn2{
+	left: 150px;
+	position: absolute;
+	margin-top:-40px;
+
+}
+.btn3{
+	left: 250px;
+	position: absolute;
+	margin-top:-40px;
+
+}
+.btn4{
+	left: 350px;
+	position: absolute;
+	margin-top:-40px;
+
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.slider1{
+	margin-top: 12px;
+	margin-left: 40px;
+}
+.mode1{
+	margin-top: 4px;
+	position: absolute;
+}
+.mode2{
+	margin-left: 100px;
+	margin-top: -21px;
+	position: absolute;
+}
+.russia{
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+}
+.english{
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	margin-left: 10px;
+}
+.japanese{
+	margin-left: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+}
+.lenguages{
+	margin-top: -28px;
+	margin-left: 300px;
+}
+.banner1{
+	width:350px;
+	position: absolute;
+	margin-left: 40px;
+	border-top: 1px purple solid;
+	border-bottom: 1px purple solid;
+	margin-top:-5px;
+
+}
+.hi{
+	margin-top: 220px;
+	margin-left: 200px;
+}
+
+	</style>
+	<title>AnimeWife</title>
+</head>
+<body>
+		<div class="wrapper">
+			<header>
+				<div class="logo-div">
+					<font color="white" size="5" class="name">animeWife</font>
+				</div>
+					<!--first menu-->
+					<div class="btn">
+						<div class="btn2">
+							<div class="dropdown">
+  							<button class="btn1">for phone</button>
+ 								<div class="dropdown-content">
+  									<a href="">wallpapers</a>
+  									<a href="">manga</a>
+ 									<a href="">anime</a>
+ 								</div>
+							</div>
+						</div>
+					<!--second menu-->
+						<div class="btn3">
+							<div class="dropdown">
+  							<button class="btn1">daily top</button>
+ 								<div class="dropdown-content">
+  									<a href="">waifu</a>
+  									<a href="">anime</a>
+ 									<a href="">manga</a>
+ 								</div>
+							</div>
+						</div>
+					<!--third menu-->
+						<div class="btn4">
+							<div class="dropdown">
+  							<button class="btn1">support</button>
+ 								<div class="dropdown-content">
+  									<a href="">dicord</a>
+  									<a href="">vk</a>
+ 									<a href="">telegram</a>
+ 								</div>
+							</div>
+						</div>
+					</div>
+			</header>
+			<div class="mods">
+				<font color="white" size="3" class="mode1">dark</font>	
+				<div class="slider1">
+					<label class="switch">
+  					<input type="checkbox">
+  					<span class="slider round"></span>
+					</label>
+				</div>
+				<font color="white" size="3" class="mode2">light</font>
+			</div>
+			<div class="lenguages">
+				<img src="photo/russia.jpg" class="russia">
+				<img src="photo/english.png" class="english">
+				<img src="photo/japanese.png" class="japanese">
+			</div>
+
+			<div class="banner">
+				<p align="center" style="color:white;">banner</p>
+				  <img class="banner1" src='photo/banner1.jpg' id="image_1" style="position: absolute;" />
+ 				 <img class="banner1" src='photo/banner2.jpg' id="image_2" style="opacity: 0; filter: alpha(opacity=0); position: absolute;" />
+ 				 <img class="banner1" src='photo/banner3.jpg' id="image_3" style="opacity: 0; filter: alpha(opacity=0); position: absolute;" />
+			</div>
+			<div class="hello">
+				<img src="photo/1.png" width="200px" class="hi">
+			</div>
+			<div class="info">
+				<p align="center" style="font-size: 50px; color: white;">info</p>
+
+				<p align="center" style="color: white;">hello friend, welcome to animeWife, here you <br>
+					can find a lot of manga and anime  to relax,<br> if you 
+					have watched anime or read <br> manga and you like it, you <br>
+				can vote, and if it has a lot of <br>votes, it will be in the daily top</p>
+			</div>
+			<footer style="border-top: 1px gray solid;">
+				<p align="center" style="color: white;font-size: 10px;">Made with  by DIYORDE <br>
+
+Copyright © 2021 — DIYORDE™ Store</p>
+			</footer>
+		</div>
+
+		<script src="js/main.js"></script>
+</body>
+</html>
